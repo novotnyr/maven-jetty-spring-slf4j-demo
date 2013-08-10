@@ -9,5 +9,7 @@
 		<appender-ref ref="STDOUT" />
 	</root>
 
+	<logger name="org.eclipse.jetty.plus.webapp.PlusConfiguration" level="WARN" />
+	<logger name="org.springframework" level="INFO" />
 	<logger name="sk.upjs.ics.novotnyr.mjss" level="DEBUG" />
 </configuration>
